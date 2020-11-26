@@ -14,7 +14,7 @@ class Flat extends Component {
 			  <div className="card-description">
 			    <h2>{this.props.flat.name}</h2>
 			  </div>
-			  <a className="card-link" href="#"></a>
+			  <a className="card-link" href="#" onClick={this.handleClick}></a>
 			</div>
 		);
 	}
